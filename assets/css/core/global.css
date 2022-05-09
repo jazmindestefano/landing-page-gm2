@@ -10,11 +10,13 @@ GLOBAL CSS
 
 * {
     margin: 0;
+
+    max-width: 1440px;
 }
 
 body {
     margin: 0 auto;
-    padding: 10px 50px;
+    padding: 20px 136px;
     background-color: pink;
 }
 
