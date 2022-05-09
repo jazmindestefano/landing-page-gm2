@@ -34,13 +34,13 @@ nav {
     list-style: none;
 }
 
-.menu-mail-tel {
+.menu-contact-left {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menu-mail-tel li {
+.menu-contact-left li {
     padding: 20px 5px 0;
     font-size: 12px;
     line-height: 24px;
@@ -48,7 +48,7 @@ nav {
     color: white;
 }
 
-.menu-mail-tel img {
+.menu-contact-left img {
     width: 17px;
     padding-left: 5px;
 }
