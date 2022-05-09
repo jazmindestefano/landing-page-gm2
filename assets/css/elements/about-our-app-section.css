@@ -46,6 +46,7 @@ ABOUT OUR APP SECTION
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+    margin-top: 3%;
 }
 
 .sub-about-our-app-description {
@@ -53,7 +54,9 @@ ABOUT OUR APP SECTION
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 55%;
+    padding: 0 1% 0 5%;
+    line-height: 17px;
 }
 
 .sub-sub-about-our-app-description {
