@@ -1,0 +1,63 @@
+/***************************************
+PRINCIPAL SECTION
+****************************************/
+
+.pricipal-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 136px;
+}
+
+.pricipal-section-container-transactions-img img {
+    width: 100%;
+}
+
+.transparent-box {
+    position: absolute;
+    width: 34%;
+    height: 60%;
+    left: 18%;
+    border: 15px solid #7472ffb3;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.pricipal-section-container-presentation {
+    background-color: white;
+    position: relative;
+    left: 10%;
+    width: 65%;
+    padding: 4%;
+    z-index: 2;
+}
+
+.pricipal-section-container-presentation h1 {
+    padding-bottom: 3%;
+    color: #5956E9;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.pricipal-section-container-presentation p {
+    padding-bottom: 35px;
+    font-size: 11px;
+    opacity: 0.5;
+    color: #6C6C72;
+}
+
+.pricipal-section-container-presentation button {
+    background-color: transparent;
+    border: none;
+    letter-spacing: 3px;
+    height: 40px;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.pricipal-section-container-presentation img {
+    width: 100px;
+    cursor: pointer;
+}
