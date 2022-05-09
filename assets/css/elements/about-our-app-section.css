@@ -60,6 +60,9 @@ ABOUT OUR APP SECTION
     display: flex;
     flex-direction: row;
     padding: 40px 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px 0;
 }
 
 .sub-sub-about-our-app-description h3 {
