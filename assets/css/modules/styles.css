@@ -17,7 +17,7 @@ nav {
     padding: 10px 150px;
 }
 
-.menu-contacto {
+.menu-contact {
     position: relative;
     height: 30px;
     padding: 0 20px;
@@ -26,11 +26,11 @@ nav {
     z-index: -1;
 }
 
-.menu-contacto ul {
+.menu-contact ul {
     padding: 0;
 }
 
-.menu-contacto li {
+.menu-contact li {
     list-style: none;
 }
 
