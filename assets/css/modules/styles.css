@@ -18,7 +18,7 @@ nav {
 }
 
 .menu-contact {
-    position: relative;
+    background-color: rgb(212, 133, 133);
     height: 30px;
     padding: 0 20px;
     display: flex;
