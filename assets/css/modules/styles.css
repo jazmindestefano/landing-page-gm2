@@ -58,13 +58,13 @@ nav {
     padding-left: 5px;
 }
 
-.manu-apps {
+.menu-contact-right {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.manu-apps img {
+.menu-contact-right img {
     width: 13px;
     margin: 17px 20px 0;
 }
