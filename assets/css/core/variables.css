@@ -1,7 +1,11 @@
+/**************************************
+VARIABLES
+***************************************/
 :root {
     --royal-blue : #5956E9;
     --white : #ffffff;
     --black : #000000;
     --gray-paragraph : #6C6C72;
     --base-font : 'Josefin Sans', sans-serif;
+    --footer-background : #232233;
 }
