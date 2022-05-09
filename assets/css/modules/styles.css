@@ -1,4 +1,7 @@
 @import url(../core/variables.css);
+@import url(../core/global.css);
+@import url(../core/reboot.css);
+@import url(../core/typography.css);
 
 * {
     box-sizing: border-box;
