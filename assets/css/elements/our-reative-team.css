@@ -1,0 +1,86 @@
+/***************************************
+OUR REATIVE TEAM
+****************************************/
+
+.our-reative-team-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 80px 0;
+}
+
+.title-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    margin-bottom: 40px;
+}
+
+.title-team h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.title-team p {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    line-height: 26px;
+}
+ 
+.team-people-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    padding: 0 20px;
+}
+
+.carla , .craig , .jocelyn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+}
+
+.carla img , .craig img , .jocelyn img {
+    margin-bottom: 30px;
+} 
+
+.carla h3 , .craig h3 , .jocelyn h3 {
+    font-weight: 700;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.carla h4, .craig h4 , .jocelyn h4 {
+    font-weight: 600;
+    font-size: 17px;
+    color: #51515585;
+    margin-bottom: 20px;
+}
+
+.carla p , .craig p , .jocelyn p {
+    color: #51515596;
+    margin-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+}
+
+.logos-redes-sociales {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
