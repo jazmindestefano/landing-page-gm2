@@ -2,11 +2,16 @@
 REBOOT
 *******************************************/
 
-.menu-contact {
-    background-color: rgb(212, 133, 133);
-    height: 40px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/*MENU*/
+
+@import url(../elements/menu.css);
+@import url(../elements/principal-section.css);
+@import url(../elements/about-our-app-section.css);
+@import url(../elements/app-features.css);
+@import url(../elements/our-reative-team.css);
+@import url(../elements/footer.css);
+
+li {
+    list-style: none;
 }
+
