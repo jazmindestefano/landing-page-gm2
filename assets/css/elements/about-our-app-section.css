@@ -1,0 +1,79 @@
+/**************************************************
+ABOUT OUR APP SECTION
+***************************************************/
+
+.about-out-app-container {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 136px;;
+}
+
+.about-our-app-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 50px auto;
+}
+
+.about-out-app-description-img-ppal {
+    width: 40%;
+    padding: 2% 5%;
+}
+
+.about-our-app-title h2 {
+    padding: 30px 0;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.about-our-app-title p {
+    display: block;
+    width: 125%;
+    font-size: 11px;
+    opacity: 0.6;
+    line-height: 15px;
+    color: #6C6C72;
+}
+
+.about-our-app-description {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sub-about-our-app-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.sub-sub-about-our-app-description {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 10px;
+}
+
+.sub-sub-about-our-app-description h3 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.sub-sub-about-our-app-description p {
+    font-size: 13px;
+    color: #6C6C72;
+}
+
+.sub-sub-about-our-app-description img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
