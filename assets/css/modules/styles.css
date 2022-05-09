@@ -1,6 +1,4 @@
-:root {
-    --black-color: #000000;
-}
+@import url(../core/variables.css);
 
 * {
     box-sizing: border-box;
