@@ -1,0 +1,145 @@
+/*******************************************
+FOOTER
+********************************************/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/************************/
+
+footer .individual-box {
+    background: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 17%;
+    padding: 25px 60px;
+    border-radius: 10px;
+    bottom: -3130px;
+    box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
+    -webkit-box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
+    -moz-box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
+}
+
+.linea-individual-box {
+    height: 30px;
+    width: 2px;
+}
+
+.individual-box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5956E9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/************************/
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+    background: var(--footer-background);
+    color: white;
+    padding: 150px 136px 0 136px;
+}
+
+.footer-container-ppal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    line-height: 25px;
+}
+
+.footer-container-ppal h3 { 
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.footer-container-ppal p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.footer-logo {
+    height: 100%;
+    padding: 40px;
+}
+
+.footer-logo p {
+    font-size: 15px;
+    width: 370px;
+}
+
+.footer-quick-link {
+    width: 250px;
+    height: 100%;
+    padding: 40px;
+}
+
+.footer-quick-link ul {
+    font-size: 15px;
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-news-letter {
+    height: 100%;
+    padding: 40px 40px 0 40px;
+}
+
+.footer-news-letter p {
+    font-size: 15px;
+    width: 370px;
+    margin: 15px 0 25px 0;
+}
+
+.footer-news-letter div {
+    display: flex;
+    justify-content: flex-start;
+    height: 35px;
+}
+
+.footer-news-letter div input {
+    margin-right: 10px;
+    width: 64%;
+    padding: 8px;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-flecha-larga{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer-copyright div {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.footer-copyright div img {
+    margin-right: 10px;
+}
+
