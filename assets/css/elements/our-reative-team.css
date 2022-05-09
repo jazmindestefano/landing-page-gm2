@@ -9,7 +9,7 @@ OUR REATIVE TEAM
     justify-content: center;
     align-items: center;
     color: black;
-    padding: 80px 136px;
+    padding: var(--padding-container);
 }
 
 .title-team {
