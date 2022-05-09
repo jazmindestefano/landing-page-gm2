@@ -1,0 +1,52 @@
+/*************************************
+MENU ELEMENTS
+**************************************/
+
+/*MENU CONTACT*/
+
+.menu-contact {
+    background-color: rgb(212, 133, 133);
+    height: 40px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-contact ul {
+    padding: 0;
+}
+
+.menu-contact li {
+    list-style: none;
+}
+
+.menu-contact-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-contact-left li {
+    padding: 20px 5px 0;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.menu-contact-left img {
+    width: 17px;
+    padding-left: 5px;
+}
+
+.menu-contact-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-contact-right img {
+    width: 13px;
+    margin: 17px 20px 0;
+}
