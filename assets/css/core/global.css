@@ -1,5 +1,5 @@
 /************************************************
-GLOBAL CSS
+GLOBAL
 *************************************************/
 
 * , 
@@ -10,16 +10,16 @@ GLOBAL CSS
 
 * {
     margin: 0;
-
-    max-width: 1440px;
 }
 
 body {
     margin: 0 auto;
-    padding: 20px 136px;
+    padding: 20px 0 0 0;
+    background-image: url(../../img/Background\ Image.png);
+    font-family: var(--base-font);
     background-color: pink;
-}
+} 
 
 nav {
-    background-color: aquamarine;
+    padding: 0 136px;
 }
