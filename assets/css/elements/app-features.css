@@ -8,7 +8,7 @@ APP FEATURES
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 60px 136px;
+    padding: var(--padding-container);
 }
 
 .app-feature-title {
