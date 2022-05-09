@@ -5,10 +5,10 @@ REBOOT
 /*MENU*/
 
 @import url(../elements/menu.css);
-@import url(../elements/principal-section.css);
-@import url(../elements/about-our-app-section.css);
-@import url(../elements/app-features.css);
-@import url(../elements/our-reative-team.css);
+@import url(../elements/principal-main-section.css);
+@import url(../elements/about-our-app-main-section.css);
+@import url(../elements/app-features-main-section.css);
+@import url(../elements/our-reative-team-main-section.css);
 @import url(../elements/footer.css);
 
 li {
