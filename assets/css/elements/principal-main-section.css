@@ -9,6 +9,16 @@ PRINCIPAL SECTION
     padding: var(--padding-container);
 }
 
+.pricipal-section-container-presentation h1 {
+    color: var(--royal-blue);
+    font-size: 220%;
+}
+
+.pricipal-section-container-presentation p {
+    color: var(--gray-paragraph);
+    text-align: left;
+}
+
 .pricipal-section-container-transactions-img img {
     width: 100%;
 }
@@ -26,25 +36,10 @@ PRINCIPAL SECTION
 .pricipal-section-container-presentation {
     background-color: white;
     position: relative;
-    left: 10%;
+    left: 6%;
     width: 65%;
     padding: 4%;
     z-index: 2;
-}
-
-.pricipal-section-container-presentation h1 {
-    padding-bottom: 3%;
-    color: #5956E9;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 40px;
-}
-
-.pricipal-section-container-presentation p {
-    padding-bottom: 35px;
-    font-size: 11px;
-    opacity: 0.5;
-    color: #6C6C72;
 }
 
 .pricipal-section-container-presentation button {

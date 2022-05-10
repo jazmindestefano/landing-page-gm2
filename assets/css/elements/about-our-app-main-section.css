@@ -25,20 +25,9 @@ ABOUT OUR APP SECTION
     padding: 2% 5%;
 }
 
-.about-our-app-title h2 {
-    padding: 30px 0;
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
 .about-our-app-title p {
     display: block;
-    width: 125%;
-    font-size: 11px;
-    opacity: 0.6;
-    line-height: 15px;
-    color: #6C6C72;
+    width: 125%;;
 }
 
 .about-our-app-description {
@@ -69,13 +58,12 @@ ABOUT OUR APP SECTION
 }
 
 .sub-sub-about-our-app-description h3 {
-    font-size: 16px;
     padding-bottom: 10px;
 }
 
 .sub-sub-about-our-app-description p {
-    font-size: 13px;
     color: #6C6C72;
+    text-align: left;
 }
 
 .sub-sub-about-our-app-description img {

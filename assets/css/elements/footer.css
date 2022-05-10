@@ -20,8 +20,9 @@ footer .individual-box {
     width: 50%;
     height: 17%;
     padding: 25px 60px;
-    border-radius: 10px;
-    top: 4030px;
+    border-radius: 15px;
+    bottom: 0;
+    top: 643%;
     box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
     -webkit-box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
     -moz-box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
@@ -64,13 +65,11 @@ footer .individual-box {
 }
 
 .footer-container-ppal h3 { 
-    font-size: 25px;
     margin-bottom: 8px;
 }
 
 .footer-container-ppal p {
     margin-bottom: 5px;
-    font-size: 16px;
 }
 
 .footer-logo {
@@ -79,8 +78,7 @@ footer .individual-box {
 }
 
 .footer-logo p {
-    font-size: 15px;
-    width: 370px;
+    text-align: left;
 }
 
 .footer-quick-link {
@@ -102,8 +100,7 @@ footer .individual-box {
 }
 
 .footer-news-letter p {
-    font-size: 15px;
-    width: 370px;
+    text-align: left;
     margin: 15px 0 25px 0;
 }
 

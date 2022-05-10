@@ -20,18 +20,6 @@ APP FEATURES
     margin-bottom: 80px;
 }
 
-.app-feature-title h2 {
-    padding-bottom: 20px;
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.app-feature-title p {
-    font-weight: 400;
-    font-size: 13px;
-    text-align: center;
-}
-
 .full-free-chat {
     display: flex;
     justify-content: center;
@@ -61,15 +49,7 @@ APP FEATURES
 
 .full-free-chat h3 ,
 .Support-by-real-people h3 {
-    font-size: 18px;
-    font-weight: 600;
     margin-bottom: 20px;
-}
-
-.full-free-chat p ,
-.Support-by-real-people p {
-    font-size: 13px;
-    line-height: 20px;
 }
 
 .four-div-and-img-features {
@@ -103,15 +83,6 @@ APP FEATURES
     border-radius: 8px;
 }
 
-.four-div-and-img-features-div-one div h3 {
-    font-weight: 600;
-    font-size: 18px;;
-}
-
-.four-div-and-img-features-div-one div p {
-    font-size: 13px;
-}
-
 .four-div-and-img-features-div-two {
     position: relative;
     right: 49px;
@@ -129,13 +100,4 @@ APP FEATURES
     width: 40px;
     height: 38px;
     border-radius: 8px;
-}
-
-.four-div-and-img-features-div-two div h3 {
-    font-weight: 600;
-    font-size: 18px;;
-}
-
-.four-div-and-img-features-div-two div p {
-    font-size: 13px;
 }

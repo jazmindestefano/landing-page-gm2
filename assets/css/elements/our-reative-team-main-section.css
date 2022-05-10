@@ -20,19 +20,6 @@ OUR REATIVE TEAM
     width: 550px;
     margin-bottom: 40px;
 }
-
-.title-team h2 {
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.title-team p {
-    font-weight: 400;
-    font-size: 13px;
-    text-align: center;
-    line-height: 26px;
-}
  
 .team-people-container {
     display: flex;
@@ -55,13 +42,11 @@ OUR REATIVE TEAM
     margin-bottom: 30px;
 } 
 
-.carla h3 , .craig h3 , .jocelyn h3 {
-    font-weight: 700;
-    font-size: 27px;
+.carla h3 , .craig h3 , .jocelyn h1 {
     margin-bottom: 5px;
 }
 
-.carla h4, .craig h4 , .jocelyn h4 {
+.carla h4, .craig h4 , .jocelyn h3 {
     font-weight: 600;
     font-size: 17px;
     color: #51515585;
@@ -71,9 +56,6 @@ OUR REATIVE TEAM
 .carla p , .craig p , .jocelyn p {
     color: #51515596;
     margin-bottom: 30px;
-    font-size: 12px;
-    text-align: center;
-    width: 300px;
 }
 
 .logos-redes-sociales {
