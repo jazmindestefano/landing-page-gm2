@@ -180,4 +180,16 @@ footer .individual-box {
     .footer-news-letter {
         padding-bottom: 0;
     }
+
+    .footer-news-letter  .logo-flecha {
+        padding: 5px;
+        padding-left: 10px;
+        background-color: royalblue;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .footer-news-letter div input {
+        margin-right: 0;
+    }
+
 }
