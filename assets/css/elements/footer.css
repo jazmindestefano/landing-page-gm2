@@ -81,6 +81,7 @@ footer .individual-box {
     font-size: 15px;
     list-style: none;
     padding: 0;
+    cursor: pointer;
 }
 
 .footer-news-letter {
