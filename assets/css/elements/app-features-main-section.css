@@ -105,3 +105,40 @@ APP FEATURES
     height: 38px;
     border-radius: 8px;
 }
+
+@media (max-width: 767px) {
+    .app-features-container {
+        padding: 20% 5%;
+    }
+
+    .app-feature-title {
+        width: 100%;
+        padding: 0 12%;
+        margin-bottom: 10%;
+    }
+
+    .full-free-chat ,
+    .Support-by-real-people{
+        padding: 0;
+    }
+
+    .four-div-and-img-features {
+        grid-template-columns: none;
+    }
+
+    .four-div-and-img-features-div-one,
+    .four-div-and-img-features-div-two {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .four-div-and-img-features-div-one p,
+    .four-div-and-img-features-div-two p {
+        text-align: center;
+    }
+
+
+    .unlimited-androind-version p{
+        margin-bottom: 50px;
+    }
+}

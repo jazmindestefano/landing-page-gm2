@@ -1,9 +1,8 @@
 /***************************************
 OUR REATIVE TEAM
 ****************************************/
-
+/*ESTE ME ESTA AÑADIENDO ESPACIO FUERA DE LA PANTALLA*/
 .our-reative-team-container {
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +25,6 @@ OUR REATIVE TEAM
     grid-template-columns: repeat(3, 33.3%);
     justify-content: space-between;
     grid-gap: 15px;
-    
 }
 
 .carla , .craig , .jocelyn {
@@ -62,4 +60,37 @@ OUR REATIVE TEAM
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+    .our-reative-team-container {
+        padding: 14% 0;
+    }
+
+    .team-people-container {
+        grid-template-columns: 0;
+        grid-gap: 0;
+    }
+
+    .title-team {
+        width: 100%;
+        padding: 0 12%;
+    }
+
+    .team-people-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 33.33%);
+        width: 100%;
+        padding: 5px;
+    }
+
+    .carla, .craig , .jocelyn {
+        margin-bottom: 10px;
+    }
+
+    .jocelyn {
+        margin-top: 30%;
+        margin-bottom: 40%;
+    }
 }

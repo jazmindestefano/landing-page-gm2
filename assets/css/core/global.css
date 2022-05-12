@@ -10,6 +10,8 @@ GLOBAL
 
 * {
     margin: 0;
+
+    max-width: 100vw;
 }
 
 body {
@@ -31,4 +33,20 @@ nav {
 
 header{
     padding: 0 136px;
+}
+
+@media (max-width: 767px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        margin-top: 30px;
+        width: 100%;
+        padding: 0 5%;
+    }
 }

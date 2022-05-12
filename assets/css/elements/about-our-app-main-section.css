@@ -71,3 +71,42 @@ ABOUT OUR APP SECTION
     height: 20px;
     margin-right: 15px;
 }
+
+
+
+@media (max-width: 767px) {
+    .about-out-app-container {
+        padding: 20% 5%;
+    }
+
+    .about-our-app-title {
+        width: 100%;
+        padding: 0 12%;
+    }
+
+    .about-our-app-description {
+        flex-direction: column;
+        width: 100%;
+        padding: none;
+    }
+
+    .about-out-app-description-img-ppal, 
+    .sub-about-our-app-description {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .sub-sub-about-our-app-description img {
+        margin-right: 0;
+    }
+
+    .sub-sub-about-our-app-description h3 {
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    .sub-sub-about-our-app-description {
+        padding: 10px;
+    }
+}

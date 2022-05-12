@@ -65,3 +65,50 @@ PRINCIPAL SECTION
 .pricipal-section-container-presentation button:hover {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.318);
 }
+
+
+@media (max-width: 767px) {
+    .pricipal-section-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 40% 5%;
+    }
+
+    .transparent-box {
+        right: 0;
+        left: 10%;
+        top: 20%;
+        width: 85%;
+        height: 49%;
+        border: 11px solid #7472ffb3;
+    }
+
+    .pricipal-section-container-presentation {
+        left: 0;
+        padding: 3%;
+        margin-bottom: 15%;
+        width: 95%;
+    }
+
+    .pricipal-section-container-presentation h1 {
+        font-size: 32px;
+        font-weight: 600;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+
+    .pricipal-section-container-presentation p {
+        text-align: center;
+        margin-bottom: 8%;
+    }
+
+    .pricipal-section-container button{
+        width: 100%;
+        margin-bottom: 8%;
+    }
+
+    .pricipal-section-container-transactions-img {
+        width: 70%;
+        margin: 0 auto;
+    }
+}

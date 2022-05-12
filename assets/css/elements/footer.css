@@ -132,3 +132,52 @@ footer .individual-box {
     margin-right: 10px;
 }
 
+
+
+
+@media (max-width: 767px) {
+    footer {
+        padding: 0;
+    }
+
+    footer .individual-box {
+        width: 93%;
+        height: 35%;
+        padding: 5%;
+        flex-direction: column;
+        bottom: 82%;
+    }
+
+    footer .individual-box img {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    footer .individual-box p {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .linea-caja-individual {
+        width: 20px;
+        height: 5px;
+    }
+
+    .footer-container-ppal {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding-top: 40%;
+        text-align: left;
+    }
+
+    .footer-logo , 
+    .footer-quick-link ,
+    .footer-news-letter {
+        padding: 5%;
+    }
+
+    .footer-news-letter {
+        padding-bottom: 0;
+    }
+}

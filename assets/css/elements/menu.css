@@ -86,6 +86,7 @@ MENU ELEMENTS
     color: black
 }
 
+
 .principal-menu img {
     height: 30px;
     padding: 5px 50px;
@@ -118,4 +119,30 @@ MENU ELEMENTS
     text-decoration: underline 2px var(--royal-blue);
     color: var(--royal-blue);
     font-weight: 500;
+}
+
+
+/************** MEDIA ******************/
+
+
+@media (max-width: 767px) {
+    .menu-contact ,
+    .principal-menu a{
+        display: none;
+     }
+
+    .principal-menu-left {
+        width: 100%;
+        /*AGREGAR UN ICONO PARA MENU HAMBURGUESA*/
+    }
+
+    .principal-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        padding: 0;
+    }
+
+    .principal-menu-logo {
+        width: 100%;
+    }
 }
