@@ -14,12 +14,21 @@ GLOBAL
 
 body {
     margin: 0 auto;
-    padding: 20px 0 0 0;
-    background-image: url(../../img/Background\ Image.png);
     font-family: var(--base-font);
-    background-color: pink;
+    text-align: center;
 } 
 
 nav {
+    width: 80%;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+header{
     padding: 0 136px;
 }

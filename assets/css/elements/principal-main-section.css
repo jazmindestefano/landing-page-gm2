@@ -3,20 +3,23 @@ PRINCIPAL SECTION
 ****************************************/
 
 .pricipal-section-container {
+    background-color: transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: var(--padding-container);
+    padding: 14% 136px;
+    background-image: url(../../img/Background\ Image.png);
 }
 
 .pricipal-section-container-presentation h1 {
     color: var(--royal-blue);
-    font-size: 220%;
+    font-size: 35px;
 }
 
 .pricipal-section-container-presentation p {
     color: var(--gray-paragraph);
     text-align: left;
+    margin-bottom: 10px;
 }
 
 .pricipal-section-container-transactions-img img {
@@ -44,15 +47,21 @@ PRINCIPAL SECTION
 
 .pricipal-section-container-presentation button {
     background-color: transparent;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
     border: none;
     letter-spacing: 3px;
     height: 40px;
     font-size: 0.8rem;
-    margin-bottom: 2px;
+    margin-bottom: 15px;
     cursor: pointer;
 }
 
 .pricipal-section-container-presentation img {
     width: 100px;
     cursor: pointer;
+}
+
+.pricipal-section-container-presentation button:hover {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.318);
 }

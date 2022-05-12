@@ -5,7 +5,6 @@ MENU ELEMENTS
 /* MENU CONTACT */
 
 .menu-contact {
-    height: 40px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -16,14 +15,14 @@ MENU ELEMENTS
     padding: 0;
 }
 
-.menu-contact-left {
+.menu-contact-left ,
+.menu-contact-right{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .menu-contact-left li {
-    padding: 20px 5px 0;
     font-size: 12px;
     line-height: 24px;
     font-weight: 400;
@@ -35,15 +34,9 @@ MENU ELEMENTS
     padding-left: 5px;
 }
 
-.menu-contact-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .menu-contact-right img {
-    width: 13px;
-    margin: 17px 20px 0;
+    width: 17px;
+    margin: auto 20px;
 }
 
 /* MENU PRINCIPAL */

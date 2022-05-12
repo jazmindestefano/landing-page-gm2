@@ -3,10 +3,13 @@ FOOTER
 ********************************************/
 
 footer {
-    display: flex;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    padding: 100px 136px 0 136px;
+    background: var(--footer-background);
 }
 
 /************************/
@@ -14,23 +17,20 @@ footer {
 footer .individual-box {
     background: white;
     position: absolute;
+    width: 55%;
+    height: 26%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
-    height: 17%;
+    left: 0; 
+    right: 0; 
+    bottom: 87%;
+    margin: 0 auto;
     padding: 25px 60px;
-    border-radius: 15px;
-    bottom: 0;
-    top: 643%;
+    border-radius: 10px;
     box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
     -webkit-box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
     -moz-box-shadow: -1px 1px 21px 3px rgba(0,0,0,0.55);
-}
-
-.linea-individual-box {
-    height: 30px;
-    width: 2px;
 }
 
 .individual-box div {
@@ -46,61 +46,48 @@ footer .individual-box {
 /************************/
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
-    
-    background: var(--footer-background);
     color: white;
-    padding: 150px 136px 0 136px;
+}
+
+.footer-container p {
+    text-align: left;
 }
 
 .footer-container-ppal {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
+    grid-template-columns: repeat(3, 33.3%);
     line-height: 25px;
 }
 
 .footer-container-ppal h3 { 
+    width: 100%;
     margin-bottom: 8px;
 }
 
-.footer-container-ppal p {
-    margin-bottom: 5px;
-}
-
 .footer-logo {
-    height: 100%;
-    padding: 40px;
+    padding: 10%;
 }
 
 .footer-logo p {
-    text-align: left;
+    margin-bottom: 10%;
 }
 
 .footer-quick-link {
-    width: 250px;
-    height: 100%;
-    padding: 40px;
+    padding: 10%;
 }
 
 .footer-quick-link ul {
     font-size: 15px;
-    margin-top: 30px;
     list-style: none;
     padding: 0;
 }
 
 .footer-news-letter {
-    height: 100%;
     padding: 40px 40px 0 40px;
 }
 
 .footer-news-letter p {
-    text-align: left;
     margin: 15px 0 25px 0;
 }
 
@@ -108,13 +95,17 @@ footer .individual-box {
     display: flex;
     justify-content: flex-start;
     height: 35px;
+    cursor: pointer;
 }
 
 .footer-news-letter div input {
     margin-right: 10px;
-    width: 64%;
+    width: 80%;
     padding: 8px;
 }
+
+
+/**************************/
 
 .footer-copyright {
     display: flex;

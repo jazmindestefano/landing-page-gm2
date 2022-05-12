@@ -9,7 +9,7 @@ OUR REATIVE TEAM
     justify-content: center;
     align-items: center;
     color: black;
-    padding: var(--padding-container);
+    padding: 14% 136px;
 }
 
 .title-team {
@@ -17,16 +17,16 @@ OUR REATIVE TEAM
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 550px;
-    margin-bottom: 40px;
+    margin-bottom: 10%;
+    padding: 0 20%;
 }
  
 .team-people-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
     justify-content: space-between;
-    align-items: center;
-    height: 500px;
-    padding: 0 20px;
+    grid-gap: 15px;
+    
 }
 
 .carla , .craig , .jocelyn {
@@ -34,33 +34,30 @@ OUR REATIVE TEAM
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 500px;
-    width: 400px;
+    box-shadow: 0px 1px 10px rgba(49, 49, 49, 0.065);
+    padding: 20px;
 }
 
 .carla img , .craig img , .jocelyn img {
-    margin-bottom: 30px;
+    margin-bottom: 10%;
 } 
 
-.carla h3 , .craig h3 , .jocelyn h1 {
-    margin-bottom: 5px;
-}
-
-.carla h4, .craig h4 , .jocelyn h3 {
+.carla h3, .craig h3 , .jocelyn h3 {
     font-weight: 600;
     font-size: 17px;
-    color: #51515585;
-    margin-bottom: 20px;
+    color: var(--gray-paragraph);
+    margin-bottom: 10px;
 }
 
 .carla p , .craig p , .jocelyn p {
-    color: #51515596;
     margin-bottom: 30px;
+    padding: 0 10px;
+    color: var(--gray-paragraph);
 }
 
 .logos-redes-sociales {
-    width: 300px;
-    height: 50px;
+    width: 100%;
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
