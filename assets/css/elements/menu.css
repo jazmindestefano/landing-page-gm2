@@ -121,6 +121,10 @@ MENU ELEMENTS
     font-weight: 500;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 
 /************** MEDIA ******************/
 
@@ -145,4 +149,9 @@ MENU ELEMENTS
     .principal-menu-logo {
         width: 100%;
     }
+
+    .mobile-menu {
+        display: block;
+    }
+    
 }
