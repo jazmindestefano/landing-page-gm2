@@ -112,3 +112,10 @@ PRINCIPAL SECTION
         margin: 0 auto;
     }
 }
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .transparent-box {
+        height: 50%;
+        top: 19%;
+    }
+}
