@@ -34,8 +34,15 @@ MENU ELEMENTS
     padding-left: 5px;
 }
 
-.menu-contact-right img {
+.menu-contact-right-logo-instagram, 
+.menu-contact-right-logo-twitter ,
+.menu-contact-right-logo-youtube {
     width: 17px;
+    margin: auto 20px;
+}
+
+.menu-contact-right-logo-facebook {
+    width: 12px;
     margin: auto 20px;
 }
 
